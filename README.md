@@ -1,5 +1,3 @@
-# mosaibrick-showcase
-
 # Mosaibrick: Algorithmic LEGO Art Generation Platform
 
 ![Project Status: In Progress](https://img.shields.io/badge/status-in%20progress-yellow)
@@ -15,22 +13,22 @@
 
 Here are some examples of mosaics rendered through the automated pipeline.
 
-*(Replace these with links to your actual render images in this repository)*
-
 <p align="center">
-  <img src="images/YOUR_RENDER_1.png" width="400" alt="Example Render 1">
-  <img src="images/YOUR_RENDER_2.png" width="400" alt="Example Render 2">
+  <img src="images/mosaibrick_1.jpg" width="400" alt="Tiger Eye">
+  <img src="images/mosaibrick_2.jpg" width="400" alt="Cheetah">
+  <img src="images/mosaibrick_3.jpg" width="400" alt="Statue of Liberty 1">
+  <img src="images/mosaibrick_4.jpg" width="400" alt="Statue of Liberty 2">
 </p>
 
 ---
 
 ## Core Features
 
-* [cite_start]**Custom Optimization Engine:** A multi-objective optimization engine for brick placement, balancing cost and piece variety. 
-* [cite_start]**Advanced Image Processing:** A pipeline using OpenCV and computer vision algorithms for pixelation, color mapping, and region detection. 
-* [cite_start]**Automated 3D Model Generation:** Programmatically generates multi-part 3D models in LDR/MPD format. 
-* [cite_start]**Automated PDF Instructions:** Integrates with LPub3D to automatically produce multi-page, professional-quality building instruction manuals. 
-* [cite_start]**Data-Driven Inventory:** Supports integration with LEGO Pick-a-Brick and other sources for real-time inventory and pricing data. 
+* **Custom Optimization Engine:** A multi-objective optimization engine for brick placement, balancing cost and piece variety. 
+* **Advanced Image Processing:** A pipeline using OpenCV and computer vision algorithms for pixelation, color mapping, and region detection. 
+* **Automated 3D Model Generation:** Programmatically generates multi-part 3D models in LDR/MPD format. 
+* **Automated PDF Instructions:** Integrates with LPub3D to automatically produce multi-page, professional-quality building instruction manuals. 
+* **Data-Driven Inventory:** Supports integration with LEGO Pick-a-Brick and other sources for real-time inventory and pricing data. 
 
 ---
 
@@ -43,17 +41,16 @@ The system is built on a high-performance Python backend designed for complex da
 ```
 Input Image → Image Processing Pipeline → Optimization Engine → 3D Model Generation → Output Pipelines (PDF/Render/Parts List)
 ```
-[cite_start][cite: 1]
 
 ### Key Technologies
 
 | Category                      | Technologies                                                                                             |
 | ----------------------------- | -------------------------------------------------------------------------------------------------------- |
-| **Backend Framework** | [cite_start]FastAPI, Uvicorn                                                                                    |
-| **Data & Optimization** | [cite_start]Pandas, NumPy, SciPy, Custom Optimization Algorithms                                              |
-| **Image Processing & Vision** | [cite_start]OpenCV, Pillow, Matplotlib, LAB Color Space Conversions                                           |
-| **3D Modeling & Automation** | [cite_start]LDraw Integration, LPub3D Service Integration, Blender API (`bpy`)                            |
-| **Deployment & Infrastructure** | [cite_start]Heroku, AWS EC2, AWS S3                                                                             |
+| **Backend Framework** | FastAPI, Uvicorn                                                                                    |
+| **Data & Optimization** | Pandas, NumPy, SciPy, Custom Optimization Algorithms                                              |
+| **Image Processing & Vision** | OpenCV, Pillow, Matplotlib, LAB Color Space Conversions                                           |
+| **3D Modeling & Automation** | LDraw Integration, LPub3D Service Integration, Blender API (`bpy`)                            |
+| **Deployment & Infrastructure** | Heroku, AWS EC2, AWS S3                                                                             |
 
 ---
 
