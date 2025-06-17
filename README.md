@@ -5,7 +5,7 @@
 ![Framework: FastAPI](https://img.shields.io/badge/framework-FastAPI-green)
 ![Deployment: AWS & Heroku](https://img.shields.io/badge/deployment-AWS%20|%20Heroku-blueviolet)
 
-[cite_start]Mosaibrick is a sophisticated backend system that transforms digital images into custom, buildable LEGO mosaics by generating cost-optimized parts lists, 3D models, and step-by-step PDF building instructions. 
+Mosaibrick is a sophisticated backend system that transforms digital images into custom, buildable LEGO mosaics by generating cost-optimized parts lists, 3D models, and step-by-step PDF building instructions. 
 
 ---
 
